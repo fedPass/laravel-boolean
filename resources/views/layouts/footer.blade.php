@@ -12,13 +12,13 @@
                         <a href="#">Lezione gratuita</a>
                       </li>
                       <li class="nav-item">
-                        <a href="#">Domande frequenti</a>
+                        <a href="/faq">Domande frequenti</a>
                       </li>
                       <li class="nav-item">
                         <a href="#">Per le aziende</a>
                       </li>
                       <li class="nav-item">
-                        <a href="#">Privacy policy</a>
+                        <a href="/privacy-policy">Privacy policy</a>
                       </li>
                       <li class="nav-item">
                         <a href="#">Lavora con noi</a>
