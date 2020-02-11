@@ -3,5 +3,7 @@
 
 {{-- per definire gli yield utilizziamo le section (che devono avere lo stesso nome delle yield per essere collegate) --}}
 @section('content')
-    <h1>Diventa <strong>sviluppatore web</strong></h1>
+    <main>
+        <h1>Diventa <strong>sviluppatore web</strong></h1>
+    </main>
 @endsection
