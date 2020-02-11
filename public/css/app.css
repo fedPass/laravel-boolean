@@ -10965,8 +10965,17 @@ header nav a.nav-boolean.btn-success {
   max-width: 90%;
 }
 
-#privacy-policy {
-  padding: 80px 0;
+#privacy-policy .row {
+  padding: 20px 0;
+}
+
+#privacy-policy h1 + p {
+  padding-top: 40px;
+}
+
+#privacy-policy h2 {
+  font-size: 18px;
+  font-weight: bolder;
 }
 
 footer {
