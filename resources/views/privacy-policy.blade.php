@@ -1,11 +1,7 @@
-<!DOCTYPE html>
-<html lang="it" dir="ltr">
-    <head>
-        <title>Boolean Careers</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body>
-        <h1>Privacy Policy</h1>
-    </body>
-</html>
+{{-- la view home estende il layout di main, cioè prende la sua struttura e definisci gli yield che sono definiti --}}
+@extends('layouts.main')
+
+{{-- per definire gli yield utilizziamo le section (che devono avere lo stesso nome delle yield per essere collegate) --}}
+@section('content')
+    <h1>Privacy Policy</h1>
+@endsection
