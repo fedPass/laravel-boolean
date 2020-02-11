@@ -8,11 +8,11 @@
       </button>
       <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-boolean nav-item nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          <a class="nav-boolean nav-item nav-link" href="#">Corso</a>
-          <a class="nav-boolean nav-item nav-link" href="#">Dopo il corso</a>
-          <a class="nav-boolean nav-item nav-link" href="#">Lezione gratuita</a>
-          <a class="nav-boolean nav-item nav-link btn btn-success" href="#">Candidati ora</a>
+          <a class="nav-boolean nav-item" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-boolean nav-item" href="#">Corso</a>
+          <a class="nav-boolean nav-item" href="#">Dopo il corso</a>
+          <a class="nav-boolean nav-item" href="#">Lezione gratuita</a>
+          <a class="nav-boolean nav-item btn btn-success" href="#">Candidati ora</a>
         </div>
       </div>
     </nav>
