@@ -4,6 +4,9 @@
 {{-- per definire gli yield utilizziamo le section (che devono avere lo stesso nome delle yield per essere collegate) --}}
 @section('content')
     <main>
-        <h1>Privacy Policy</h1>
+        <div id="privacy-policy" class="container">
+            <h1>Privacy Policy</h1>
+        </div>
+
     </main>
 @endsection

@@ -14,7 +14,10 @@ footer {
 
     i {
         margin: 30px 20px;
-        font-size: 35px; 
+        font-size: 35px;
+        &:hover {
+            color: #61ce4e; 
+        }
     }
 
 }
