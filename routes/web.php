@@ -12,13 +12,13 @@
 */
 
 Route::get('/', function () {
-    return view('home');
-});
+    return view('home', ['title'=>'Il corso per diventare web developer e trovare un nuovo lavoro']);
+})->name('home');
 
 Route::get('/privacy-policy', function () {
-    return view('privacy-policy');
+    return view('privacy-policy', ['title'=>'Privacy Policy - Boolean Careers']);
 });
 
 Route::get('/faq', function () {
-    return view('faq');
+    return view('faq', ['title'=>'FAQ - Boolean Careers']);
 });

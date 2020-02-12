@@ -7,7 +7,7 @@
                     <p>Sede Operativa<br>Via Carducci 12 - 20123 Milano<br>Tel: 02-36599712 </p>
                 </div>
                 <div class="col-lg-6">
-                    <ul class="nav flex-column float-right">
+                    <ul class="nav flex-column float-right text-right">
                       <li class="nav-item">
                         <a href="#">Lezione gratuita</a>
                       </li>

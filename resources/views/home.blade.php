@@ -41,11 +41,11 @@
         <section id="placement" class="bg-grey">
             <div class="container">
                 <div class="row">
-                    <div class="col">
+                    <div class="col-lg-6">
                         <h3>Un dipartimento <em>placement</em> dedicato</h3>
                         <p>Finito il corso, il nostro compito è quello di offrirti un costante e attivo sostegno nella ricerca del lavoro.<br>A seconda della tua personalità e delle tue attitudini, ti presentiamo alle aziende che più si avvicinano alle tue esigenze, insegnandoti a utilizzare strumenti e metodi per rendere il tuo profilo accattivante per il mercato del lavoro.</p>
                     </div>
-                    <div class="col">
+                    <div class="col-lg-6">
                         <img class="lozad" data-src="https://www.boolean.careers/images/homepage/studente.png" alt="Assistente" src="https://www.boolean.careers/images/homepage/studente.png" data-loaded="true">
                     </div>
                 </div>

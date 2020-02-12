@@ -10898,9 +10898,13 @@ body {
   background: #e8ebf1;
 }
 
-header nav {
+header {
   height: 90px;
-  padding: 10px 0;
+  background-color: #fff;
+}
+
+header nav {
+  height: 100%;
 }
 
 header nav img {
@@ -10908,33 +10912,36 @@ header nav img {
 }
 
 header nav a {
-  color: #1b3c59;
-  margin: 0 5px;
-  padding: 0 20px;
-  text-transform: uppercase;
-  font-size: 14px;
-  line-height: 40px;
-}
-
-header nav a.nav-boolean:hover {
   text-decoration: none;
-}
-
-header nav a.nav-boolean:not(:last-child):hover {
-  border-bottom: 2px solid #61ce4e;
-}
-
-header nav a.nav-boolean:first-child {
-  border-bottom: 2px solid #61ce4e;
-}
-
-header nav a.nav-boolean.btn-success {
-  color: #fff !important;
-  background: #61ce4e;
-  margin: 0 0 0 40px;
-  padding: 0 20px;
+  text-transform: uppercase;
+  color: #1b3c59;
   line-height: 40px;
+  padding: 0 20px;
+  margin: 0 5px;
+}
+
+header nav a:hover {
+  text-decoration: none;
+  border-bottom: 2px solid #61ce4e;
+  color: #1b3c59;
+}
+
+header nav a.navbar-brand:hover {
   border: none;
+}
+
+header nav a.active {
+  border-bottom: 2px solid #61ce4e;
+}
+
+header nav a.btn {
+  padding: 0 20px;
+  margin: 0 5px;
+  line-height: 40px;
+}
+
+main {
+  margin-top: 90px;
 }
 
 #jumbo {
@@ -10960,7 +10967,7 @@ header nav a.nav-boolean.btn-success {
   font-weight: 400;
 }
 
-#bool-data .col {
+#bool-data div[class^=col-] {
   text-align: center;
 }
 
@@ -10987,6 +10994,10 @@ header nav a.nav-boolean.btn-success {
 #privacy-policy h2 {
   font-size: 18px;
   font-weight: bolder;
+}
+
+#faq .row {
+  padding: 0 80px;
 }
 
 footer {

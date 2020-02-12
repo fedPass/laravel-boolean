@@ -1,38 +1,41 @@
-header nav {
+header {
     height: 90px;
-    padding: 10px 0;
+    background-color: #fff;
 
-    img {
-        max-width: 200px;
-    }
+    nav {
+        height: 100%;
 
-    a {
-    color: $text_color;
-    margin: 0 5px;
-    padding: 0 20px;
-    text-transform: uppercase;
-    font-size: 14px;
-    line-height: 40px;
-        &.nav-boolean:hover {
+        img {
+            max-width: 200px;
+        }
+
+        a {
             text-decoration: none;
-        }
-
-        &.nav-boolean:not(:last-child):hover {
-            border-bottom: 2px solid #61ce4e;
-        }
-
-        &.nav-boolean:first-child {
-            border-bottom: 2px solid #61ce4e;
-        }
-
-        &.nav-boolean.btn-success {
-            color: #fff!important;
-            background: #61ce4e;
-            margin: 0 0 0 40px;
-            padding: 0 20px;
+            text-transform: uppercase;
+            color: $text_color;
             line-height: 40px;
-            border: none;
+            padding: 0 20px;
+            margin: 0 5px;
+
+            &:hover {
+                text-decoration: none;
+                border-bottom: 2px solid #61ce4e;
+                color: $text_color;
+            }
+
+            &.navbar-brand:hover {
+                border: none;
+            }
+
+            &.active {
+                border-bottom: 2px solid #61ce4e;
+            }
+
+            &.btn {
+                padding: 0 20px;
+                margin: 0 5px;
+                line-height: 40px;
+            }
         }
     }
-
 }
