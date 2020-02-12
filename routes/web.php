@@ -17,8 +17,8 @@ Route::get('/', function () {
 
 Route::get('/privacy-policy', function () {
     return view('privacy-policy', ['title'=>'Privacy Policy - Boolean Careers']);
-});
+})->name('privacy-policy');
 
 Route::get('/faq', function () {
-    return view('faq', ['title'=>'FAQ - Boolean Careers']);
-});
+    return view('faq', ['title'=>'FAQ - Boolean Careers', 'lista_faq_dx'=>config('faq.faqs-dx'), 'lista_faq_sx'=>config('faq.faqs-sx')]);
+})->name('faq');

@@ -10996,8 +10996,34 @@ main {
   font-weight: bolder;
 }
 
-#faq .row {
-  padding: 0 80px;
+#faq .faq-top {
+  padding: 80px 0;
+  margin-left: 80px;
+  flex-direction: column;
+}
+
+#faq .faq-top h1 {
+  margin-bottom: 20px;
+}
+
+#faq .faq-list {
+  padding: 15px 50px;
+}
+
+#faq .faq-list h2 {
+  margin: 30px 0;
+}
+
+#faq .faq-list .faq {
+  padding: 20px 0;
+}
+
+#faq .faq-list .faq h3 {
+  font-size: 24px;
+}
+
+#faq .faq-list .faq p.activeFaq {
+  display: block;
 }
 
 footer {
